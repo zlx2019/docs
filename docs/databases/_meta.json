@@ -1,0 +1,14 @@
+[
+    {
+        "type": "file",
+        "name": "index",
+        "label": "数据库"
+    },
+    {
+        "type": "dir",
+        "name": "postgresql",
+        "label": "PostgreSql",
+        "collapsible": true,
+        "collapsed": true
+    }
+]

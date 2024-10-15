@@ -5,6 +5,21 @@
     "activeMatch": "/guide/"
   },
   {
+    "text": "数据库",
+    "link": "/databases/",
+    "activeMatch": "/databases/"
+  },
+  {
+    "text": "计算机网络",
+    "link": "/networks/",
+    "activeMatch": "/networks/"
+  },
+  {
+    "text": "编程语言",
+    "link": "/programming/",
+    "activeMatch": "/programming/"
+  },
+  {
     "text": "Hello World",
     "link": "/hello/",
     "activeMatch": "/hello/"
