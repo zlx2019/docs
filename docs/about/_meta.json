@@ -1,0 +1,13 @@
+[
+    {
+        "type": "file",
+        "name": "index",
+        "label": "About"
+
+    },
+    {
+        "type": "file",
+        "name": "profile",
+        "label": "Profile"
+    }
+]

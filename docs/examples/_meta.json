@@ -1,0 +1,31 @@
+[
+    {
+        "type": "file",
+        "name": "index",
+        "label": "Examples"
+    },
+    {
+        "type": "file",
+        "name": "side1"
+    },
+    {
+        "type": "file",
+        "name": "side2"
+    },
+    {
+        "type": "file",
+        "name": "side3",
+        "link": "side3"
+    },
+    {
+        "type": "divider",
+        "dashed": false
+    },
+    {
+        "type": "dir",
+        "name": "box",
+        "label": "示例列表",
+        "collapsible": true,
+        "collapsed": true
+    }
+]
