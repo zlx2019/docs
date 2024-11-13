@@ -1,0 +1,21 @@
+[
+    {
+        "type": "file",
+        "name": "index",
+        "label": "操作系统"
+    },
+    {
+        "type": "dir",
+        "name": "windows",
+        "label": "Windows",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "dir",
+        "name": "linux",
+        "label": "Linux",
+        "collapsible": true,
+        "collapsed": true
+    }
+]

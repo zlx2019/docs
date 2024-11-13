@@ -1,10 +1,8 @@
 name: Deploy site to Github Pages
 on:
   push:
-    # main
-    branches: [main]
-  workflow_dispatch:
-
+    branches: 
+      - main
 permissions:
   contents: read
   pages: write
@@ -23,18 +21,20 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Not needed if lastUpdated is not enabled
+      # 安装NodeJs
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
+      # 安装依赖
       - name: Install dependencies
         run: npm install
+      # 项目打包
       - name: Build with Rspress
         run: |
           npm run build
-      - name: List build files
-        run: ls -la doc_build
+      # 上传静态资源
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -52,3 +52,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
