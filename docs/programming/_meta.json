@@ -1,3 +1,35 @@
 [
-    
+    {
+        "type": "file",
+        "name": "index",
+        "label": "编程语言"
+    },
+    {
+        "type": "dir",
+        "name": "c",
+        "label": "C",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "dir",
+        "name": "cpp",
+        "label": "C++",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "dir",
+        "name": "kotlin",
+        "label": "Kotlin",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "dir",
+        "name": "rust",
+        "label": "Rust",
+        "collapsible": true,
+        "collapsed": true
+    }
 ]
