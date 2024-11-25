@@ -31,5 +31,12 @@
         "label": "Rust",
         "collapsible": true,
         "collapsed": true
+    },
+    {
+        "type": "dir",
+        "name": "react",
+        "label": "React",
+        "collapsible": true,
+        "collapsed": true
     }
 ]
